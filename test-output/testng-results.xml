@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="105" started-at="2019-10-12T13:38:06 IST" finished-at="2019-10-12T13:38:06 IST">
+    <groups>
+      <group name="low">
+        <method signature="Testgroup1.fillform()[pri:2, instance:groups.Testgroup1@6279cee3]" name="fillform" class="groups.Testgroup1"/>
+        <method signature="Testgroup2.validflightresults()[pri:0, instance:groups.Testgroup2@4206a205]" name="validflightresults" class="groups.Testgroup2"/>
+      </group> <!-- low -->
+    </groups>
+    <test name="Test" duration-ms="105" started-at="2019-10-12T13:38:06 IST" finished-at="2019-10-12T13:38:06 IST">
+      <class name="groups.Testgroup1">
+        <test-method status="PASS" signature="fillform()[pri:2, instance:groups.Testgroup1@6279cee3]" name="fillform" duration-ms="19" started-at="2019-10-12T13:38:06 IST" finished-at="2019-10-12T13:38:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillform -->
+      </class> <!-- groups.Testgroup1 -->
+      <class name="groups.Testgroup2">
+        <test-method status="PASS" signature="validflightresults()[pri:0, instance:groups.Testgroup2@4206a205]" name="validflightresults" duration-ms="6" started-at="2019-10-12T13:38:06 IST" finished-at="2019-10-12T13:38:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validflightresults -->
+      </class> <!-- groups.Testgroup2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
